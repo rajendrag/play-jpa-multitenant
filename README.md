@@ -13,8 +13,7 @@ Assumptions
 - Common DB evolutions are inside evolutions/commondb and tenant databases evolutions are inside evolutions/application.
 
 
-```It also handles the db migrations (evolutions) properly. The scripts in **evolutions/application** will be applied on all the tenant databases
-```
+It also handles the db migrations (evolutions) properly. The scripts in **evolutions/application** will be applied on all the tenant databases
 
 Important Classes
 -----------------
@@ -38,6 +37,7 @@ git clone https://github.com/rajendrag/play-jpa-multitenant.git
 cd play-jpa-multitenant
 activator "run" (or to debug activator -jvm-debug 9999 run)
 ```
+
 This will start the application on port 9000 in auto reload mode, so that you can see your changes instantly
 
 Testing
