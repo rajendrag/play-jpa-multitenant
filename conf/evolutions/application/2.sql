@@ -1,0 +1,9 @@
+# --- !Ups
+INSERT INTO iq_unit_mstr (iq_unit_mstr_id,unit_name,description,nof_chairs,nof_beds,appt_start_time,nof_appt_start_with_in_hour,nof_appt_discharge_with_in_hour,owner,created_by,modified_by,created_datetime,modified_datetime,version,parent_id,show_on_ui,iq_version,cloned_from) VALUES ('2c9180885015fd7f0150366ba849001a','UC Health','',26,8,null,0,0,'','uchealth-user','uchealth-user',{ts '2015-10-04 22:13:57'},{ts '2015-11-18 14:29:22'},10,null,true,0,null);
+INSERT INTO iq_unit_mstr (iq_unit_mstr_id,unit_name,description,nof_chairs,nof_beds,appt_start_time,nof_appt_start_with_in_hour,nof_appt_discharge_with_in_hour,owner,created_by,modified_by,created_datetime,modified_datetime,version,parent_id,show_on_ui,iq_version,cloned_from) VALUES ('2c91809150827756015089a1fb6a1f9f','UC Health1','test',12,11,null,0,0,'test','uchealth-user','uchealth-user',{ts '2015-10-21 02:01:46'},{ts '2015-11-19 03:19:09'},2,null,true,0,null);
+INSERT INTO iq_unit_mstr (iq_unit_mstr_id,unit_name,description,nof_chairs,nof_beds,appt_start_time,nof_appt_start_with_in_hour,nof_appt_discharge_with_in_hour,owner,created_by,modified_by,created_datetime,modified_datetime,version,parent_id,show_on_ui,iq_version,cloned_from) VALUES ('2c91809c50c6caea0150c799aebc039f','uc data','test',10,20,null,0,0,'test','uchealth-user','uchealth-user',{ts '2015-11-02 01:49:09'},{ts '2015-11-02 01:49:24'},1,null,true,0,null);
+INSERT INTO iq_unit_mstr (iq_unit_mstr_id,unit_name,description,nof_chairs,nof_beds,appt_start_time,nof_appt_start_with_in_hour,nof_appt_discharge_with_in_hour,owner,created_by,modified_by,created_datetime,modified_datetime,version,parent_id,show_on_ui,iq_version,cloned_from) VALUES ('2c9180b35139ee9901513c5f2b5e0015','Testing Unit','',0,0,null,0,0,'','uchealth-user','uchealth-user',{ts '2015-11-24 18:00:49'},{ts '2015-11-24 18:00:49'},0,null,true,0,null);
+
+# --- !Downs
+
+delete from iq_unit_mstr;

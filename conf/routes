@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Default path will just redirect to the unit list
+GET     /                                       controllers.UnitSetup.index()
+
+# Units list
+GET     /units                                  @controllers.UnitSetup.list()
