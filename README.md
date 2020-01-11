@@ -3,7 +3,7 @@ Play-JPA-Multitenant
 
 A very simple PlayFramework application, to demonstrate how to build a multi tenant (schema/db per tenant) application using JPA(Hibernate).
 
-Assumptions
+Assumptions:
 -----------
 - There will be a common database which will have the "common to all tenants" information. It also has a table com_tenant which will provide information about all the tenants.
 - There will be one separate database/schema per tenant (All these databases will have exact same structure like same table names and column names etc)
